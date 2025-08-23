@@ -1,21 +1,12 @@
-# Shadcn UI Kit
+#  Thoughts Bee CRM 
 
-A large collection of admin dashboards, website templates, UI components, and ready-to-use blocks. Save time and deliver projects faster.
-
-This is a [Next.js 15](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and React 19.
 
 ## Installation
 
 Follow these steps to get your project up and running locally:
 
-1. Clone the repository:
 
-    ```sh
-    git clone https://github.com/bundui/shadcn-ui-kit-dashboard.git
-    cd shadcn-ui-kit-dashboard
-    ```
-
-2. Install dependencies:
+12. Install dependencies:
 
     ```sh
     npm install
@@ -31,7 +22,7 @@ Follow these steps to get your project up and running locally:
     npm install --legacy-peer-deps
     ```
 
-3. Run the development server:
+2. Run the development server:
 
     ```sh
     npm run dev
