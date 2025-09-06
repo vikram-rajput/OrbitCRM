@@ -13,13 +13,13 @@ import { Pool } from "pg";
 type AnyDb = NodePgDatabase | NeonHttpDatabase;
 
 const isProd = process.env.NODE_ENV === "production";
-const hasNeon = !!process.env.NEON_DATABASE_URL;
+const hasNeon = !!process.env.PRODUCTION_DATABASE_URL;
 
 let db: AnyDb;
 
 if (isProd && hasNeon) {
   // ✅ Production on Neon (fetch-based)
-  const sql = neon(process.env.NEON_DATABASE_URL!);
+  const sql = neon(process.env.PRODUCTION_DATABASE_URL!);
   db = drizzleNeon(sql);
 } else {
   // ✅ Development on local Postgres (pg-based)
