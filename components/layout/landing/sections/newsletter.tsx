@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import SectionContainer from "@/components/layout/section-container";
-import SectionHeader from "@/components/layout/section-header";
+import SectionContainer from "../section-container";
+import SectionHeader from "../section-header";
 
 export function NewsletterSection() {
   return (

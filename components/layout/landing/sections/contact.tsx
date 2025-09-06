@@ -16,8 +16,9 @@ import {
   SelectValue
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import SectionContainer from "@/components/layout/section-container";
-import SectionHeader from "@/components/layout/section-header";
+import SectionContainer from "../section-container";
+import SectionHeader from "../section-header";
+
 
 const formSchema = z.object({
   firstName: z.string().trim().min(1).max(20),

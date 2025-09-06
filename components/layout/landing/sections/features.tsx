@@ -6,8 +6,8 @@ import { featureList } from "@/@data/features";
 import { CardTitle } from "@/components/ui/card";
 import Icon from "@/components/icon";
 import { CardHover, CardsHover } from "@/components/ui/extras/cards-hover";
-import SectionContainer from "@/components/layout/section-container";
-import SectionHeader from "@/components/layout/section-header";
+import SectionContainer from "../section-container";
+import SectionHeader from "../section-header";
 
 export const FeaturesSection = () => {
   const [value, setValue] = React.useState<string | null>(null);

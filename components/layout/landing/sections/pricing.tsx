@@ -6,12 +6,13 @@ import { Check } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { PricingCtaSection } from "@/components/layout/sections/cta";
-import SectionContainer from "@/components/layout/section-container";
-import SectionHeader from "@/components/layout/section-header";
+
+import SectionContainer from "../section-container";
+import SectionHeader from "../section-header";
 import { AnimatedBackground } from "@/components/ui/extras/animated-background";
 import { SlidingNumber } from "@/components/ui/extras/sliding-number";
 import { Badge } from "@/components/ui/badge";
+import { PricingCtaSection } from "./cta";
 
 type Period = {
   label: string;

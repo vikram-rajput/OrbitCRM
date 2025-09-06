@@ -11,8 +11,8 @@ import {
   CarouselPrevious
 } from "@/components/ui/carousel";
 import { Star } from "lucide-react";
-import SectionContainer from "@/components/layout/section-container";
-import SectionHeader from "@/components/layout/section-header";
+import SectionContainer from "../section-container";
+import SectionHeader from "../section-header";
 
 export const TestimonialSection = () => {
   return (

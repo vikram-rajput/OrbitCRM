@@ -4,7 +4,7 @@ import { useEffect, useId } from "react";
 import { MotionValue, motion, useSpring, useTransform, motionValue } from "motion/react";
 import useMeasure from "react-use-measure";
 
-const TRANSITION = {
+const TRANSITION:any = {
   type: "spring",
   stiffness: 280,
   damping: 18,

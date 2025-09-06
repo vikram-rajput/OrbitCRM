@@ -1,8 +1,8 @@
 import { Badge } from "@/components/ui/badge";
 import { ProService, serviceList } from "@/@data/services";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import SectionContainer from "@/components/layout/section-container";
-import SectionHeader from "@/components/layout/section-header";
+import SectionContainer from "../section-container";
+import SectionHeader from "../section-header";
 
 export const ServicesSection = () => {
   return (

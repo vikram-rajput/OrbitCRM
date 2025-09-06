@@ -12,8 +12,8 @@ import {
   CardFooter,
   CardDescription
 } from "@/components/ui/card";
-import SectionContainer from "@/components/layout/section-container";
-import SectionHeader from "@/components/layout/section-header";
+import SectionContainer from "../section-container";
+import SectionHeader from "../section-header";
 import { Badge } from "@/components/ui/badge";
 
 export function TeamSection() {
