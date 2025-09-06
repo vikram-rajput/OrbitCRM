@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 
 import Link from "next/link";
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 
 import { PlusCircledIcon } from "@radix-ui/react-icons";
 import { Button } from "@/components/ui/button";

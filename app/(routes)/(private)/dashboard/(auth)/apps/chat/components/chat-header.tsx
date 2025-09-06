@@ -3,7 +3,7 @@
 import React from "react";
 import { ArrowLeft, Ellipsis } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { generateAvatarFallback } from "@/lib/utils";
+import { generateAvatarFallback } from "@/lib/common/utils";
 import useChatStore from "@/app/(routes)/dashboard/(auth)/apps/chat/useChatStore";
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";

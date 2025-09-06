@@ -110,12 +110,12 @@ export const navItems: NavGroup[] = [
     items: [
       {
         title: "Leads",
-        href: "/dashboard/pages/leads",
+        href: "/leads",
         icon: UsersIcon
       },
       {
         title: "Brands",
-        href: "/dashboard/pages/brands",
+        href: "/brands",
         icon: UsersIcon
       },
       
@@ -170,11 +170,11 @@ export const navItems: NavGroup[] = [
     ]
   },
    {
-    title: "Admin",
+    title: "Admin Settings",
     items: [
       {
-        title: "User Management",
-        href: "/dashboard/pages/users",
+        title: "User and Teams",
+        href: "/users",
         icon: UsersIcon
       },
       // {

@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 
 import { Button } from "@/components/ui/button";
 

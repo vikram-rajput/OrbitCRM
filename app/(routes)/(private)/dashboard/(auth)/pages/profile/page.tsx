@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { Settings } from "lucide-react";
 import { CompleteYourProfileCard } from "./complete-your-profile";
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { CardSkills } from "@/app/(routes)/dashboard/(auth)/pages/profile/card-skills";
-import { LatestActivity } from "@/app/(routes)/dashboard/(auth)/pages/profile/latest-activity";
-import { AboutMe } from "@/app/(routes)/dashboard/(auth)/pages/profile/about-me";
-import { Connections } from "@/app/(routes)/dashboard/(auth)/pages/profile/connections";
-import { ProfileCard } from "@/app/(routes)/dashboard/(auth)/pages/profile/profile-card";
+import { CardSkills } from "./card-skills";
+import { LatestActivity } from "./latest-activity";
+import { AboutMe } from "./about-me";
+import { Connections } from "./connections";
+import { ProfileCard } from "./profile-card";
+
 
 export async function generateMetadata() {
   return generateMeta({

@@ -16,7 +16,7 @@ import {
 import { Nav } from "./nav";
 import { Separator } from "@/components/ui/separator";
 import * as React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 import { AccountSwitcher } from "./account-switcher";
 import { accounts } from "../data";
 

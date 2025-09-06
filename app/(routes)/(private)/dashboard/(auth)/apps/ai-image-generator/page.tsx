@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import ImageGenerator from "./components/image-generator";
 import { TooltipProvider } from "@/components/ui/tooltip";
 

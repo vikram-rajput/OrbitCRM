@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { generateAvatarFallback } from "@/lib/utils";
+import { generateAvatarFallback } from "@/lib/common/utils";
 import { Dribbble, Facebook, FileText, Instagram, Linkedin, SheetIcon, X } from "lucide-react";
 import useChatStore from "@/app/(routes)/dashboard/(auth)/apps/chat/useChatStore";
 import { UserPropsTypes } from "@/app/(routes)/dashboard/(auth)/apps/chat/types";

@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";

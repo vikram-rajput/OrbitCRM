@@ -17,7 +17,7 @@ import {
   FormLabel,
   FormMessage
 } from "@/components/ui/form";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import useCalendarEventStore from "@/app/(routes)/dashboard/(auth)/apps/calendar/useCalendarEventStore";
 import { DateTimePicker } from "@/app/(routes)/dashboard/(auth)/apps/calendar/components/date-time-picker";

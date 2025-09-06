@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import { promises as fs } from "fs";
 import path from "path";
 import ApiKeysDataTable from "./datatable";

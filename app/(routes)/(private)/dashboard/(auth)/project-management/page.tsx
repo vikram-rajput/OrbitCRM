@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 
 import CalendarDateRangePicker from "@/components/custom-date-range-picker";
 import { ExportButton } from "@/components/CardActionMenus";

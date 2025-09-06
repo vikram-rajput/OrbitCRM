@@ -13,7 +13,7 @@ import { Suggestion } from "@/components/ui/custom/prompt/suggestion";
 import { ChatContainer } from "@/components/ui/custom/prompt/chat-container";
 import { Message, MessageContent } from "@/components/ui/custom/prompt/message";
 import { Markdown } from "@/components/ui/custom/prompt/markdown";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 import { PromptLoader } from "@/components/ui/custom/prompt/loader";
 import { PromptScrollButton } from "@/components/ui/custom/prompt/scroll-button";
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { format } from "date-fns";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 import { ClockIcon } from "lucide-react";
 import useCalendarEventStore from "@/app/(routes)/dashboard/(auth)/apps/calendar/useCalendarEventStore";
 import { Badge } from "@/components/ui/badge";

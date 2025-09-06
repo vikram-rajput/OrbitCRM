@@ -1,7 +1,7 @@
 import React from "react";
 import { format } from "date-fns";
 import { CalendarIcon, Plus, X } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { useTodoStore } from "@/app/(routes)/dashboard/(auth)/apps/todo-list-app/store";

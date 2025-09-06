@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import ProductImageGallery from "./product-image-gallery";
 import {
   CircleDollarSign,

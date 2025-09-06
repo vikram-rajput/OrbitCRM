@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import CalendarApp from "@/app/(routes)/dashboard/(auth)/apps/calendar/components/calendar-app";
 import CalendarSidebar from "@/app/(routes)/dashboard/(auth)/apps/calendar/components/calendar-sidebar";
 import EventSheet from "@/app/(routes)/dashboard/(auth)/apps/calendar/components/event-sheet";

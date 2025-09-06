@@ -1,5 +1,5 @@
 import ResetPasswordClientPage from "@/components/layout/forms/reset-password/reset-password-form";
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 
 
 export async function generateMetadata() {

@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import AddProductForm from "./add-product-form";
 
 export async function generateMetadata() {

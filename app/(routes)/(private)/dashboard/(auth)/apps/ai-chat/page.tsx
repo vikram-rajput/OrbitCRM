@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import AppRender from "@/app/(routes)/dashboard/(auth)/apps/ai-chat/app-render";
 
 export async function generateMetadata() {

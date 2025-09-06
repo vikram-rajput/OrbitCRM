@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import { Download } from "lucide-react";
 
 import { Button } from "@/components/ui/button";

@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import path from "path";
 import { promises as fs } from "fs";
 import { ChatItemProps, UserPropsTypes } from "./types";

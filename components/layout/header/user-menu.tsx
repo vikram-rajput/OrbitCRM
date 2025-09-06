@@ -13,7 +13,7 @@ import {
 import Link from "next/link";
 import * as React from "react";
 import { Progress } from "@/components/ui/progress";
-import { authClient } from "@/lib/auth-client";
+import { authClient } from "@/lib/auth/auth-client";
 import { useRouter } from "next/navigation";
 
 export default function UserMenu() {

@@ -2,7 +2,7 @@
 
 import { useThemeConfig } from "@/components/active-theme";
 import { Button } from "@/components/ui/button";
-import { DEFAULT_THEME } from "@/lib/themes";
+import { DEFAULT_THEME } from "@/lib/common/themes";
 
 export function ResetThemeButton() {
   const { setTheme } = useThemeConfig();

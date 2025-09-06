@@ -1,5 +1,5 @@
 import ForgotPasswordClientPage from "@/components/layout/forms/forgot-password/forgot-password-form";
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 
 
 

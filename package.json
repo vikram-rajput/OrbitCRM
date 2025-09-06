@@ -3,9 +3,12 @@
   "version": "0.6.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
     "lint": "next lint"
   },
   "dependencies": {
@@ -89,6 +92,7 @@
     "react-markdown": "^10.1.0",
     "react-medium-image-zoom": "^5.2.14",
     "react-resizable-panels": "^3.0.3",
+    "react-use-measure": "^2.1.7",
     "react-world-flags": "^1.6.0",
     "recharts": "^2.15.4",
     "remark-gfm": "^4.0.1",

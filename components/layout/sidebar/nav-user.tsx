@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 import { DotsVerticalIcon } from "@radix-ui/react-icons";
 import { signOut } from "@/server/users";
-import { authClient } from "@/lib/auth-client";
+import { authClient } from "@/lib/auth/auth-client";
 import { useRouter } from "next/navigation";
 
 const userData = {
@@ -49,15 +49,10 @@ export function NavUser() {
               size="lg"
               className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
             >
-              <Avatar className="rounded-full">
-                <AvatarImage src={userData.avatar} alt={userData.name} />
-                <AvatarFallback className="rounded-lg">JS</AvatarFallback>
-              </Avatar>
+              
               <div className="grid flex-1 text-left text-sm leading-tight">
-                <span className="truncate font-medium">{userData.name}</span>
-                <span className="text-muted-foreground truncate text-xs">
-                  {userData.email}
-                </span>
+                <span className="truncate font-medium">Admin Settings</span>
+               
               </div>
               <DotsVerticalIcon className="ml-auto size-4" />
             </SidebarMenuButton>

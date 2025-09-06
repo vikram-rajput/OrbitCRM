@@ -1,7 +1,7 @@
 "use client";
 
 import { StarIcon } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 
 interface StarRatingProps {
   rating: number;

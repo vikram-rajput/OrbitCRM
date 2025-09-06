@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardAction, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 import { ArrowRight, CircleCheck, PlusCircleIcon } from "lucide-react";
 import { AddReminderDialog } from "@/app/(routes)/dashboard/(auth)/project-management/components/add-reminder-dialog";
 

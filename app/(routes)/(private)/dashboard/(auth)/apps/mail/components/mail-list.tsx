@@ -2,7 +2,7 @@ import { ComponentProps } from "react";
 import { formatDistanceToNow } from "date-fns";
 import { Mail } from "../data";
 import { useMailStore } from "../use-mail";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";

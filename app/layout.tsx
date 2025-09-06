@@ -1,15 +1,15 @@
 import React from "react";
 import { cookies } from "next/headers";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 import { ThemeProvider } from "next-themes";
-import GoogleAnalyticsInit from "@/lib/ga";
-import { fontVariables } from "@/lib/fonts";
+import GoogleAnalyticsInit from "@/lib/common/ga";
+import { fontVariables } from "@/lib/common/fonts";
 import NextTopLoader from "nextjs-toploader";
 
 import "./globals.css";
 
 import { ActiveThemeProvider } from "@/components/active-theme";
-import { DEFAULT_THEME } from "@/lib/themes";
+import { DEFAULT_THEME } from "@/lib/common/themes";
 import { Toaster } from "@/components/ui/sonner";
 
 export default async function RootLayout({

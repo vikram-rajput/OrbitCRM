@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 
 import SignupClientPage from "@/components/layout/forms/signup/signup-form";
 

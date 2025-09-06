@@ -1,5 +1,5 @@
 import { ArrowDownLeft, ArrowUpRight } from "lucide-react";
-import { getInitials } from "@/lib/utils";
+import { getInitials } from "@/lib/common/utils";
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";

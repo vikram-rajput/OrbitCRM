@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/common/utils";
 import { restrictToVerticalAxis } from "@dnd-kit/modifiers";
 
 import { FilterTab, Todo, TodoStatus } from "@/app/(routes)/dashboard/(auth)/apps/todo-list-app/types";

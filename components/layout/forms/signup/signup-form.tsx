@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"

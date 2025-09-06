@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import type React from "react";
 
 export async function generateMetadata() {

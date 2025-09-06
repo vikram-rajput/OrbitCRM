@@ -43,7 +43,7 @@ import {
 } from "@/components/ui/table";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { generateAvatarFallback } from "@/lib/utils";
+import { generateAvatarFallback } from "@/lib/common/utils";
 import { Checkbox } from "@/components/ui/checkbox";
 
 export type User = {

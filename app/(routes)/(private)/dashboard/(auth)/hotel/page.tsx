@@ -1,4 +1,4 @@
-import { generateMeta } from "@/lib/utils";
+import { generateMeta } from "@/lib/common/utils";
 import { AlertCircleIcon } from "lucide-react";
 
 export async function generateMetadata() {
