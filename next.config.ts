@@ -6,7 +6,7 @@ config();
 const isProduction = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
-  assetPrefix: isProduction ? "https://vikramrajput.com" : undefined,
+  assetPrefix: isProduction ? "https://orbitcrm-clevercode.vercel.app/" : undefined,
   images: {
     remotePatterns: [
       {
